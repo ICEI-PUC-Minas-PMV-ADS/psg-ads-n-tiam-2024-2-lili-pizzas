@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Lili Pizzas 
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicação Móvel`
 
-`SEMESTRE`
+`4º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Será desenvolvido um aplicativo gestão de agendamentos de eventos de uma empresa que trabalha com rodízios de pizzas em eventos. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Amanda Avelino Barreto Santos Camilo
+*  Gabriel Arthur Medeiros Freitas
+* Gabriel Chaves Pinheiro
+* João Vitor Almeida Ansaloni
+* Vitor Emanuel Dias Xavier
+* Vinicius Ferreira Mello
 
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Felipe Alves de Oliveira
 
 ## Instruções de utilização
 
