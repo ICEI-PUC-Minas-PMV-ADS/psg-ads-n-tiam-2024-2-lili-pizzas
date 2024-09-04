@@ -8,7 +8,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Persona 1: Flávia Cristina tem 43 anos, é formada em gestão de processos. Pensa em fazer doutorado em comunicações pela PUC Minas, é casada e possui uma filha. Está buscando uma empresa que realize eventos em casa, pois deseja fazer a festa da sua filha Júlia em sua residência. 
+
+Persona 2: Claudionei Mello tem 53 anos, trabalha com recarga de cartuchos de empresoras, é casado e pai de 2 filhos. Pensa em realizar uma confraternização em sua empresa e deseja um serviço de eventos focado em pizzas que possa ir até sua empresa no dia da confraternização para fazer as pizzas e servi-lás.
+
+Persona 3: Elivania Silveira tem 43 anos, formada em gastronomia e empreendedora há 6 anos no ramo. Há muito tempo sofre com o agendamento e o atendimento manual de seus clientes. Ela deseja uma maneira simples e eficaz para agendar e melhorar a qualidade da gestão e do serviço que ela e sua equipe presta. 
+
+Persona 4: Maria Eduarda Silveira tem 19 anos, é estudante e filha de Elivania. Trabalha com a mãe há 5 anos em toda gestão da organização dos eventos, e deseja ajudar a mãe a agilizar e melhorar a qualidade do serviço prestado.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -28,10 +34,26 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Dono de uma empresa | Preciso realizar uma festa para    | Para fazer uma confraternização        |
+|                    | minha empresa                      |                                        |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Pai de familia      | Preciso realizar uma festa para    | Para comemorar o aniversário dela      |
+|                    | minha filha                        |                                        |
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Dona da minha       | Preciso gerir melhor               | Para alavancar minhas vendas           |
+|empresa             | toda minha empresa                 | e melhorar a qualidade                 |
+
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Filha da dona da    | Preciso ter mais facilidade        | Para ajudar minha mãe nas              |
+|empresa             | na gestão da empresa               | vendas e gestão da empresa             |
+
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -48,15 +70,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema deve ter uma tela de login  | ALTA | 
+|RF-002| O sistema deve permitir cadastro de cliente| ALTA |
+|RF-003| O sistema deve permitir cadastro de funcionário | ALTA |
+|RF-004| O sistema deve permitir agendar um evento | ALTA |
+|RF-005| O sistema deve permitir reagendar um evento | ALTA |
+|RF-006| O sistema deve ter uma tela contando sobre a empresa | MÉDIA |
+|RF-007| O sistema deve ter uma tela explicando como funciona | MÉDIA |
+|RF-008| O sistema deve ter uma tela contendo valores | MÉDIA |
+|RF-009| O sistema deve permitir agendamento de um evento | ALTA |
+|RF-010| O sistema deve exibir lista de eventos agendados pro cliente | MÉDIA |
+|RF-011| O sistema deve exibir lista de eventos agendados pro funcionário | MÉDIA |
+|RF-012| O sistema deve permitir redirecionar o cliete para o whatsapp | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema não deve permitir que o usuário agende uma data anterior a data atual | ALTA | 
+|RNF-002| O sistema só deve permitir agendamento com no mínimo uma semana de antecedência |  ALTA | 
+|RNF-003| O sistema não deve permitir dois agendamentos no mesmo horário |  ALTA | 
+|RNF-004| O sistema deve ser responsivo para diversos aparelhos móveis |  BAIXA | 
+|RNF-005| O sistema deve ser intuitivo |  BAIXA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -77,10 +112,15 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                    |
+|--|--------------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre        |
+|02| O projeto deverá seguir todas as datas de entrega            |
+|03| Cada membro deve colaborar com todo desenvolvimento          |
+|04| O cliente deve aprovar e avaliar todo processo               |
+|05| Todo projeto deverá ser documento apenas no GitHub           |
+|06| Deverá ser feita reuniões ou contatos semanais com o cliente |
+
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
@@ -90,7 +130,17 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+Casos de uso Amanda Avelino:
+
+Casos de uso João Vitor:
+
+Casos de uso Gabriel Chaves:
+
+Casos de uso Gabriel Arthur:
+
+Casos de uso Vitor Emanuel:
+
+Casos de uso Vinicius Mello:
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
