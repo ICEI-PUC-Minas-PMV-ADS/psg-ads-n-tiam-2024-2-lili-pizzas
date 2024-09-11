@@ -38,19 +38,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Pai de familia      | Preciso realizar uma festa para    | Para comemorar o aniversário dela      |
-|                    | minha filha                        |                                        |
+|Pai de familia      | Preciso realizar uma festa para  minha filha         | Para comemorar o aniversário dela      |
+                                                                              
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Dona da minha       | Preciso gerir melhor               | Para alavancar minhas vendas           |
-|empresa             | toda minha empresa                 | e melhorar a qualidade                 |
+|Dona da minha empresa        | Preciso gerir melhor toda minha empresa               | Para alavancar minhas vendas            
+                                           
 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Filha da dona da    | Preciso ter mais facilidade        | Para ajudar minha mãe nas              |
-|empresa             | na gestão da empresa               | vendas e gestão da empresa             |
+|Filha da dona da empresa       | Preciso ter mais facilidade na gestão da empresa           | Para ajudar minha mãe nas vendas e gestão da empresa              
+                                   
 
 
 
