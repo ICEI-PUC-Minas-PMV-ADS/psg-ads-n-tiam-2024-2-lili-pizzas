@@ -16,18 +16,6 @@ Persona 3: Elivania Silveira tem 43 anos, formada em gastronomia e empreendedora
 
 Persona 4: Maria Eduarda Silveira tem 19 anos, é estudante e filha de Elivania. Trabalha com a mãe há 5 anos em toda gestão da organização dos eventos, e deseja ajudar a mãe a agilizar e melhorar a qualidade do serviço prestado.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -109,17 +97,10 @@ Casos de uso Vinicius Mello:
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+Para o projeto será utilizado a metodologia ágil scrum. Essa metodologia separa as tarefas em sprints, onde cada sprint terá uma parte do projeto concluída no fim dela. Além disso,  será utilizado o quadro kanban do Github para organização de todas tarefas a serem feitas. Reuniões semanais entre os desenvolvedores serão realizadas a fim de alinhar todo processo de desenvolvimento; elas serão realizadas no aplicativo microsoft teams. Para acompanhamento por parte do cliente, um grupo no whatsapp foi criado para envio de todo processo de desenvolvimento, com objetivo de deixar o cliente sempre por dentro de toda atualização que será realizada, garantindo entregas contínuas e com qualidade sempre com aprovação das partes. Além disso, utilizaremos para controle de versão do código o github com branchs como main (código original), develop (código de teste de desenvolvimento) e uma branch específica para cada estória desenvolvida.   
 
 ## Gerenciamento de Tempo
-
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
-
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+Para o gerenciamento de tempo no nosso projeto, utilizaremos uma reunião planning que faremos a estimativa de todos as estórias planejadas e que entraram para aquela sprint. Para metrificar o tempo, teremos como base que 1 ponto será igual a 7 horas de desenvolvimento e, para não ocorrer transbordos, estabeleceremos que 1 ponto é igual a um modal simples no frontend da aplicação e no backend será igual a uma rota simples de busca de informação no banco(sem muitas regras de negócio).
 
 ## Gerenciamento de Equipe
 
