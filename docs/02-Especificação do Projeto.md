@@ -34,8 +34,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Dono de uma empresa | Preciso realizar uma festa para    | Para fazer uma confraternização        |
-|                    | minha empresa                      |                                        |
+|Dono de uma empresa | Preciso realizar uma festa para minha empresa     | Para fazer uma confraternização        |                                                          
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
