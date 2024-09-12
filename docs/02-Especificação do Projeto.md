@@ -82,8 +82,8 @@ Casos de uso Amanda Avelino:
 Casos de uso João Vitor:
 
 Casos de uso Gabriel Chaves:
-![GerenciamentoEquipe](img/Ver tela sobre a Empresa.jpg)
-![GerenciamentoEquipe](img/Ver tela de valores.jpg)
+![DiagramaDeCasosDeUso](img/Ver tela sobre a Empresa.jpg)
+![DiagramaDeCasosDeUso](img/Ver tela de valores.jpg)
 Casos de uso Gabriel Arthur:
 
 Casos de uso Vitor Emanuel:
