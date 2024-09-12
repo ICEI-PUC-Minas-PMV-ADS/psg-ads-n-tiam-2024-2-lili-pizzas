@@ -1,11 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
 Persona 1: Flávia Cristina tem 43 anos, é formada em gestão de processos. Pensa em fazer doutorado em comunicações pela PUC Minas, é casada e possui uma filha. Está buscando uma empresa que realize eventos em casa, pois deseja fazer a festa da sua filha Júlia em sua residência. 
@@ -104,9 +98,8 @@ Para o gerenciamento de tempo no nosso projeto, utilizaremos uma reunião planni
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
+O gerencimento da equipe será realizado através de um quadro kanban do Github que permitirá separar todas as tarefas a serem realizadas.
+![GerenciamentoEquipe](img/kanban.png)
 
 ## Gestão de Orçamento
 
