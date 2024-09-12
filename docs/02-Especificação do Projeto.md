@@ -82,8 +82,10 @@ Casos de uso Amanda Avelino:
 Casos de uso João Vitor:
 
 Casos de uso Gabriel Chaves:
-![DiagramaDeCasosDeUso](img/VerTelaEmpresa.png)
-![DiagramaDeCasosDeUso](img/VerTelaValores.png)
+
+![VerTelaEmpresa](https://github.com/user-attachments/assets/5bbef6b1-e0ff-447f-bc0d-a35d89d05ecf)
+![VerTelaValores](https://github.com/user-attachments/assets/2369985b-e5e5-41ce-9af8-7e828e56da3a)
+
 Casos de uso Gabriel Arthur:
 
 Casos de uso Vitor Emanuel:
