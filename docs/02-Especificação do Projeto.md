@@ -83,8 +83,9 @@ Casos de uso João Vitor:
 
 Casos de uso Gabriel Chaves:
 
-![VerTelaEmpresa](https://github.com/user-attachments/assets/5bbef6b1-e0ff-447f-bc0d-a35d89d05ecf)
-![VerTelaValores](https://github.com/user-attachments/assets/2369985b-e5e5-41ce-9af8-7e828e56da3a)
+![VerTelaEmpresa](https://github.com/user-attachments/assets/c81f8f36-0b00-4cf5-a733-a142c69bbaf1)
+![VerTelaValores](https://github.com/user-attachments/assets/c1c2dde4-dce7-402f-b0e6-53105bce33e7)
+
 
 Casos de uso Gabriel Arthur:
 
