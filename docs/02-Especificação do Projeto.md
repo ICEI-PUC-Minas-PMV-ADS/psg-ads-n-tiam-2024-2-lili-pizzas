@@ -82,8 +82,8 @@ Casos de uso Amanda Avelino:
 Casos de uso João Vitor:
 
 Casos de uso Gabriel Chaves:
-![DiagramaDeCasosDeUso](img/Ver_tela_Empresa.png)
-![DiagramaDeCasosDeUso](img/Ver_tela_valores.png)
+![DiagramaDeCasosDeUso](img/VerTelaEmpresa.png)
+![DiagramaDeCasosDeUso](img/VerTelaValores.png)
 Casos de uso Gabriel Arthur:
 
 Casos de uso Vitor Emanuel:
