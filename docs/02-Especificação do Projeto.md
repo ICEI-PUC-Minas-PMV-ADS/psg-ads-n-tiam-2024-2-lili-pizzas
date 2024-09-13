@@ -42,7 +42,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-001| O sistema deve ter uma tela de login  | ALTA | 
 |RF-002| O sistema deve permitir cadastro de usuário| ALTA |
 |RF-003| O sistema deve permitir cadastro de funcionário | ALTA |
-|RF-004| O sistema deve permitir agendar um evento | ALTA |
+|RF-004| O sistema deve permitir visualizar os funcionários de um evento | ALTA |
 |RF-005| O sistema deve permitir reagendar um evento | ALTA |
 |RF-006| O sistema deve ter uma tela contando sobre a empresa | MÉDIA |
 |RF-007| O sistema deve ter uma tela explicando como funciona | MÉDIA |
