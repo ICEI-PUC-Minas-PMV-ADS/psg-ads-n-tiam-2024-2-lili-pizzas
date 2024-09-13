@@ -82,6 +82,7 @@ Casos de uso Amanda Avelino:
 Casos de uso João Vitor:
 
 ![RF0![RF03 drawio](https://github.com/user-attachments/assets/101af3b7-e705-4fdd-bfc3-3105793b6be4)
+
 06 drawio](https://github.com/user-attachments/assets/b329eb75-e985-4281-9be4-ce860c6234e0)
 
 Casos de uso Gabriel Chaves:
