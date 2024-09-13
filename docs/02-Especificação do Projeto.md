@@ -83,7 +83,7 @@ Casos de uso João Vitor:
 
 ![RF0![RF03 drawio](https://github.com/user-attachments/assets/101af3b7-e705-4fdd-bfc3-3105793b6be4)
 
-06 drawio](https://github.com/user-attachments/assets/b329eb75-e985-4281-9be4-ce860c6234e0)
+![RF006 drawio (1)](https://github.com/user-attachments/assets/a002e871-1d5d-497e-b130-786622f23781)
 
 Casos de uso Gabriel Chaves:
 
