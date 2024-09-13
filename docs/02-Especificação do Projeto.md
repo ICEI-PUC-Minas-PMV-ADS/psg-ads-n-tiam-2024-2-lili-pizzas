@@ -40,7 +40,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve ter uma tela de login  | ALTA | 
-|RF-002| O sistema deve permitir cadastro de cliente| ALTA |
+|RF-002| O sistema deve permitir cadastro de usuário| ALTA |
 |RF-003| O sistema deve permitir cadastro de funcionário | ALTA |
 |RF-004| O sistema deve permitir agendar um evento | ALTA |
 |RF-005| O sistema deve permitir reagendar um evento | ALTA |
@@ -84,6 +84,7 @@ Casos de uso João Vitor:
 Casos de uso Gabriel Chaves:
 
 ![VerTelaEmpresa](https://github.com/user-attachments/assets/c81f8f36-0b00-4cf5-a733-a142c69bbaf1)
+
 ![VerTelaValores](https://github.com/user-attachments/assets/c1c2dde4-dce7-402f-b0e6-53105bce33e7)
 
 
@@ -92,6 +93,10 @@ Casos de uso Gabriel Arthur:
 Casos de uso Vitor Emanuel:
 
 Casos de uso Vinicius Mello:
+
+![diagrama1-Vinicius](https://github.com/user-attachments/assets/193cbdf5-f990-408f-8ec4-707d7d239575)
+
+![diagrama2](https://github.com/user-attachments/assets/ee92b24e-9445-4fe0-a3a9-ea6c2c79acf8)
 
 # Gerenciamento de Projeto
 
