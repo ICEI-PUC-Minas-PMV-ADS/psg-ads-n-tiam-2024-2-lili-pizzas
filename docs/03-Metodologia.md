@@ -3,7 +3,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A abordagem adotada pela equipe para o desenvolvimento do projeto de sistema para o negócio de rodízio de pizzas baseou-se em uma metodologia ágil, adaptada para as necessidades específicas do cliente. A metodologia ágil foi escolhida devido à sua flexibilidade e capacidade de responder rapidamente às mudanças de requisitos, características essenciais para um ambiente dinâmico como o do setor de serviços de alimentação. Para o desenvolvimento do projeto, utilizamos o ambiente integrado de desenvolvimento Visual Studio. Este ambiente foi selecionado por sua capacidade robusta de suportar diversas tecnologias de maneira integrada, facilitando não apenas a codificação, mas também a depuração e a integração contínua de novas funcionalidades.
+A gestão do código fonte foi realizada através do Git, configurado em um fluxo de trabalho baseado no método Kanban. Isso proporcionou à equipe uma visão clara das tarefas em andamento e permitiu priorizar de forma eficiente as entregas. Reuniões diárias (stand-ups) foram realizadas para alinhar o progresso, identificar obstáculos e ajustar estratégias conforme necessário. Ao adotar essa abordagem ágil combinada com ferramentas modernas de desenvolvimento e gestão de projetos, não apenas atendemos às expectativas do cliente, mas também superamos suas necessidades. 
+O sistema resultante não apenas automatiza o processo de gestão do rodízio de pizzas, mas também melhora significativamente a experiência tanto para os operadores quanto para os clientes finais, demonstrando nossa capacidade de entrega de soluções eficientes e orientadas para resultados.
 
 ## Relação de Ambientes de Trabalho
 
