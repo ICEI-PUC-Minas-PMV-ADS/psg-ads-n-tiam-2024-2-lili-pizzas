@@ -23,9 +23,7 @@ foi utilizado para hospedagem do repositório.
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `development`: código de teste de desenvolvimento
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
@@ -35,7 +33,7 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+A atualização que será realizada, garantindo entregas contínuas e com qualidade sempre com aprovação das partes. Além disso, usaremos para controle de versão do código ou github com branchs como main (código original), development (código de teste de desenvolvimento) e um branch específico para cada história desenvolvida.
 
 > **Links Úteis**:
 > - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
