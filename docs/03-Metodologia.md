@@ -62,8 +62,32 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
+ Papéis no Scrum:
+Product Owner (PO): Responsável por gerenciar o backlog do produto, priorizando as funcionalidades e interagindo com os stakeholders.
+Scrum Master (SM): Facilita o processo, remove impedimentos e garante que a equipe siga as práticas Scrum.
+Time de Desenvolvimento: Conjunto de membros que trabalham na execução e entrega dos incrementos de software.
+
+Sprint Planning (Planejamento da Sprint):
+Realizar uma reunião de planejamento no início de cada sprint.
+Definir os itens do backlog que serão priorizados para a sprint.
+Dividir esses itens em tarefas no GitHub, com detalhes como descrição clara, responsáveis e tempo estimado.
+Estabelecer a meta da sprint, uma descrição concisa do objetivo a ser alcançado.
+
+GitHub Projects para Gerenciamento Visual:
+Quadro Kanban: Utilizar o GitHub Projects como quadro para visualização de tarefas.
+Colunas típicas podem ser:
+Backlog: Tarefas que ainda não foram priorizadas para a sprint.
+Pronto para o desenvolvimento: Tarefas selecionadas para a sprint atual.
+Em andamento: Tarefas em execução.
+Disponivel para validação: Tarefas aguardando revisão ou testes.
+Concluidas: Tarefas concluídas.
+
+weekly Scrum (Reunião Semanal):
+Realizar semanalmente reuniões rápidas (até 30 minutos) para que cada membro responda:
+O que fez na semana anterior.
+O que planeja fazer na proxima.
+Se há algum impedimento ou bloqueio.
+
 > **Links Úteis**:
 > - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
 > - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
