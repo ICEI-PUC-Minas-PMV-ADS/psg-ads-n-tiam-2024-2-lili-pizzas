@@ -96,6 +96,10 @@ Casos de uso Gabriel Arthur:
 
 Casos de uso Vitor Emanuel:
 
+![RF11 drawio](https://github.com/user-attachments/assets/b35e8116-14de-4da8-99ef-34275f5c8c6e)
+
+![RF12 drawio](https://github.com/user-attachments/assets/bc37dba5-0dc0-466d-9bb8-7a9c14bf4038)
+
 Casos de uso Vinicius Mello:
 
 ![diagrama1-Vinicius](https://github.com/user-attachments/assets/193cbdf5-f990-408f-8ec4-707d7d239575)
