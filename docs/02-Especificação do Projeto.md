@@ -79,6 +79,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Casos de uso Amanda Avelino:
 
+![0C09DB99-6851-44DF-9491-FC4C94CD747D](https://github.com/user-attachments/assets/ad203c4a-3ecd-4c87-becb-43f11d94e035)
+
+![AFA32804-343E-479E-99A0-74C8033045E5_1_105_c](https://github.com/user-attachments/assets/934a7fe7-b975-483f-affc-7623c990c667)
+
+
 Casos de uso João Vitor:
 
 ![RF0![RF03 drawio](https://github.com/user-attachments/assets/101af3b7-e705-4fdd-bfc3-3105793b6be4)
