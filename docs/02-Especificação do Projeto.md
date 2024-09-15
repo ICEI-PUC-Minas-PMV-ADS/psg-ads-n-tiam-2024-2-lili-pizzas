@@ -93,6 +93,9 @@ Casos de uso Gabriel Chaves:
 
 
 Casos de uso Gabriel Arthur:
+![RF010 drawio](https://github.com/user-attachments/assets/2f0f4542-6bb3-481c-9070-4d1ca2b6e413)
+
+![CasoDeUso09 drawio](https://github.com/user-attachments/assets/3a538425-dcb1-4ddb-b5a8-0be8e36495cb)
 
 Casos de uso Vitor Emanuel:
 
