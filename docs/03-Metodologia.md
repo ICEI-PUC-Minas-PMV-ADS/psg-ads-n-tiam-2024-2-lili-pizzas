@@ -100,8 +100,8 @@ Se há algum impedimento ou bloqueio.
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código escolhido: Visual Studio Code e plataforma ExpoDev.
-- Ferramentas de comunicação: Discord, Google meet e WhatsApp.???
+- Editor de código escolhido: plataforma ExpoDev.
+- Ferramentas de comunicação: Discord, Microsoft Teams e WhatsApp.
 - Ferramenta de desenho de tela escolhido: Figma.
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão e facilita o desenvolvimento mobile utilizando o react native. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos o Figma pela variedade de elementos que facilitam o esboço e o desenvolvimento do prototipo.
