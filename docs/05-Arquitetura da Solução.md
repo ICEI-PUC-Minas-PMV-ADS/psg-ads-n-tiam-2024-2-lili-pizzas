@@ -19,10 +19,9 @@ Para a implementação do sistema de agendamento de eventos para a pizzaria, as 
 
 Ferramentas e IDEs:
 
+- Visual Studio: IDE principal utilizada para o desenvolvimento da aplicação mobile em React Native, com a extensão do Expo instalada para facilitar o acesso às APIs nativas do dispositivo.
 - draw.io: Ferramenta utilizada para a modelagem do diagrama de classes e fluxos do sistema.
 - GitHub: Controle de versão do código-fonte e colaboração da equipe.
-- Expo: O Expo é uma ferramenta utilizada no desenvolvimento mobile com React Native que permite o fácil acesso às API’s nativas do dispositivo sem precisar instalar qualquer dependência ou alterar código nativo.
-
 ## Hospedagem
 A hospedagem da aplicação será feita utilizando o Firebase Hosting, que é uma solução serverless. Isso significa que a aplicação será automaticamente escalável e robusta, suportando picos de acesso sem a necessidade de configurar servidores manualmente.
 
