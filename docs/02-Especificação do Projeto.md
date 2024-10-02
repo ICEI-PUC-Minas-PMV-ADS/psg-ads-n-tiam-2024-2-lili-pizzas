@@ -74,6 +74,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04| O cliente deve aprovar e avaliar todo processo               |
 |05| Todo projeto deverá ser documento apenas no GitHub           |
 |06| Deverá ser feita reuniões ou contatos semanais com o cliente |
+|07| Todo evento deve ter no mínimo 20 convidados                 |
 
 ## Diagrama de Casos de Uso
 
