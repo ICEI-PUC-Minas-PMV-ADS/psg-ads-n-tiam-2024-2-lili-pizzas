@@ -10,10 +10,98 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 Comente sobre as ferramentas de testes utilizadas.
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+# Descrição dos Casos de Teste
+## TC-001: Tela de Login
+
+Objetivo: Verificar se a tela de login está acessível e funcional.
+Passos:
+Acessar a tela de login.
+Inserir um nome de usuário e senha válidos.
+Clicar no botão de login.
+Resultado Esperado: O sistema deve permitir o acesso à área restrita.
+## TC-002: Cadastro de Usuário
+
+Objetivo: Testar se o sistema permite o cadastro de novos usuários.
+Passos:
+Acessar a tela de cadastro.
+Inserir dados válidos (nome, email, senha).
+Clicar em "Cadastrar".
+Resultado Esperado: O usuário deve ser cadastrado com sucesso.
+## TC-003: Cadastro de Funcionário
+
+Objetivo: Testar o cadastro de funcionários.
+Passos:
+Acessar a tela de cadastro de funcionário.
+Inserir dados válidos (nome, cargo, email).
+Clicar em "Cadastrar".
+Resultado Esperado: O funcionário deve ser cadastrado com sucesso.
+## TC-004: Visualização de Funcionários de um Evento
+
+Objetivo: Verificar se os funcionários de um evento são exibidos corretamente.
+Passos:
+Selecionar um evento específico.
+Clicar na opção para visualizar funcionários.
+Resultado Esperado: O sistema deve listar todos os funcionários associados ao evento.
+## TC-005: Reagendamento de Evento
+
+Objetivo: Testar a funcionalidade de reagendamento.
+Passos:
+Acessar a lista de eventos agendados.
+Selecionar um evento para reagendamento.
+Alterar a data e/ou hora.
+Confirmar o reagendamento.
+Resultado Esperado: O evento deve ser reagendado corretamente.
+## TC-006: Tela Sobre a Empresa
+
+Objetivo: Verificar a exibição da tela informativa.
+Passos:
+Acessar a tela que contém informações sobre a empresa.
+Resultado Esperado: A tela deve mostrar informações corretas e atualizadas.
+## TC-007: Tela Explicativa
+
+Objetivo: Testar a tela que explica como funciona o sistema.
+Passos:
+Acessar a tela explicativa.
+Resultado Esperado: As informações devem ser claras e compreensíveis.
+## TC-008: Tela de Valores
+
+Objetivo: Verificar a exibição de valores.
+Passos:
+Acessar a tela que contém os valores.
+Resultado Esperado: Os valores devem ser exibidos corretamente.
+## TC-009: Agendamento de Evento
+
+Objetivo: Testar a funcionalidade de agendamento.
+Passos:
+Acessar a tela de agendamento.
+Inserir dados válidos (data, horário, tipo de evento).
+Confirmar o agendamento.
+Resultado Esperado: O evento deve ser agendado com sucesso.
+## TC-010: Lista de Eventos Agendados para Cliente
+
+Objetivo: Verificar a lista de eventos do cliente.
+Passos:
+Acessar a área do cliente.
+Clicar na opção de visualizar eventos agendados.
+Resultado Esperado: A lista deve conter todos os eventos do cliente.
+## TC-011: Lista de Eventos Agendados para Funcionário
+
+Objetivo: Verificar a lista de eventos do funcionário.
+Passos:
+Acessar a área do funcionário.
+Clicar na opção de visualizar eventos agendados.
+Resultado Esperado: A lista deve conter todos os eventos do funcionário.
+## TC-012: Redirecionamento para WhatsApp
+
+Objetivo: Testar o redirecionamento para o WhatsApp.
+Passos:
+Clicar no botão de redirecionamento.
+Resultado Esperado: O cliente deve ser redirecionado para o WhatsApp.
+#3. Estratégia de Teste
+Ambiente de Teste: A aplicação deve ser testada em um ambiente de homologação que simule o ambiente de produção.
+Ferramentas de Teste: Utilizar ferramentas de teste automatizado e de gerenciamento de testes para acompanhar os resultados.
+Equipe de Teste: A equipe de QA deve ser responsável pela execução dos testes e pela documentação dos resultados.
+#4. Cronograma
+Planejamento dos Testes: 1 semana
+Execução dos Testes: 2 semanas
+Revisão e Documentação: 1 semana
