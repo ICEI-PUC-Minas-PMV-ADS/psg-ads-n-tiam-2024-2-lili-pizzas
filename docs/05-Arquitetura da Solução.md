@@ -4,6 +4,7 @@
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+![TIlilipizzas drawio (1)](https://github.com/user-attachments/assets/cfdcaeae-3f3f-47fd-bf71-0c02c81822b3)
 
 ## Modelo Físico
 
