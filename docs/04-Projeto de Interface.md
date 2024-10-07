@@ -15,7 +15,7 @@ Segue abaixo fluxo de telas para agendar um evento:
 ![image](https://github.com/user-attachments/assets/f0c0c0c2-69ea-4fc7-b4c1-7b5a7af4a731)
 ![image](https://github.com/user-attachments/assets/42fcb716-1e7c-4d8e-a9cb-b428473bb7b4)
 ![image](https://github.com/user-attachments/assets/b5c3862b-ddaf-4718-8603-16f70fc17928)
-![image](https://github.com/user-attachments/assets/4d39374b-27db-4fb3-90bb-1229417824ac)
+![image](https://github.com/user-attachments/assets/0eeaf82a-1c98-45cc-bac1-4d3926c00853)
 ![image](https://github.com/user-attachments/assets/6269e590-2678-45d2-914d-d6e6670cfdba)
 
 Fluxo Meus Eventos:
