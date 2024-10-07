@@ -8,7 +8,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo Físico
 # Banco FireBase com as collections devidamente criadas.
-
+Link do banco: https://console.firebase.google.com/u/0/project/lili-pizza/settings/iam
 ![image](https://github.com/user-attachments/assets/bfabeee1-e677-48d7-906e-e1d77281e217)
 
 # Conexão no código 
