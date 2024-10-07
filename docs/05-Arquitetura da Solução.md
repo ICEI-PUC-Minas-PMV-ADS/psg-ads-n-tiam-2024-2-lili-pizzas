@@ -7,8 +7,10 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 ![TIlilipizzas drawio (1)](https://github.com/user-attachments/assets/cfdcaeae-3f3f-47fd-bf71-0c02c81822b3)
 
 ## Modelo Físico
+# Banco FireBase com as collections devidamente criadas.
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+![image](https://github.com/user-attachments/assets/bfabeee1-e677-48d7-906e-e1d77281e217)
+
 
 ## Tecnologias Utilizadas
 
