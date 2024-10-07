@@ -11,6 +11,11 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ![image](https://github.com/user-attachments/assets/bfabeee1-e677-48d7-906e-e1d77281e217)
 
+# Conexão no código 
+
+![image](https://github.com/user-attachments/assets/2cf883dc-3fc1-454c-ad68-3e2f273d7581)
+
+
 
 ## Tecnologias Utilizadas
 
