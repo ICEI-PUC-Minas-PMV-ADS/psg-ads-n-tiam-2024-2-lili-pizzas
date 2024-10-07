@@ -8,6 +8,8 @@
 
 ## Wireframes
 
+Segue abaixo fluxo de telas para agendar um evento:
+
 ![image](https://github.com/user-attachments/assets/b28c6a48-29bc-4a74-86da-fcd583b9b72f)
 ![image](https://github.com/user-attachments/assets/a3ff8d25-ce18-4030-8775-e7993cc41760)
 ![image](https://github.com/user-attachments/assets/f0c0c0c2-69ea-4fc7-b4c1-7b5a7af4a731)
@@ -42,18 +44,18 @@ E tela Como funciona:
 
 
 
-Telas referentes a visão do funcionário que consegue visualizar os eventos pendentes, confirmar e editar:
+Telas referentes a visão do funcionário que consegue visualizar os eventos pendentes, confirmar, rejeitar e editar:
 
 
 ![image](https://github.com/user-attachments/assets/2a8eda98-3a3d-41b1-8406-b30ac1c9f914)
 ![image](https://github.com/user-attachments/assets/c8916322-0198-492f-aa30-7e0ea94bca2b)
 
 
+E aqui uma visão geral de como ficou o figma do nosso projeto: 
+
+![image](https://github.com/user-attachments/assets/d4fb7b82-042d-4175-b5e1-94b3dd578534)
 
 
-
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
