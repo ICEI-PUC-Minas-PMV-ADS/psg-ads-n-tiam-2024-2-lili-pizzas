@@ -22,7 +22,30 @@ Fluxo Meus Eventos:
 ![image](https://github.com/user-attachments/assets/4c072646-e1ae-458a-a0c2-b695d7678157)
 
 
-Ao clicar no botão reagendar o usuário é redirecionado para a tela de orçamento para revisçao dos itens
+Ao clicar no botão reagendar o usuário é redirecionado para a tela de orçamento para revisão dos itens.
+
+
+Pela tela de inicio é possível acessar as configurações que dão acesso a outras duas telas importantes:
+
+![image](https://github.com/user-attachments/assets/4516e53f-c0a2-4577-a108-a53eb6aa5e96)
+![image](https://github.com/user-attachments/assets/970ee777-7c83-46d7-9b40-6ea4c1860353)
+
+Tela sobre nós:
+
+![image](https://github.com/user-attachments/assets/d4710e73-b098-49fa-9f76-d923b9d7fa3a)
+
+E tela Como funciona:
+
+
+![image](https://github.com/user-attachments/assets/59832dc1-9584-4bf5-9a3c-7b9e3d3d4892)
+
+
+
+
+
+
+
+
 
 
 
