@@ -20,6 +20,7 @@ Fluxo Meus Eventos:
 
 ![image](https://github.com/user-attachments/assets/61c80f87-ccf2-47c2-a2b4-a5d54bce148f)
 ![image](https://github.com/user-attachments/assets/4c072646-e1ae-458a-a0c2-b695d7678157)
+![image](https://github.com/user-attachments/assets/79a1e2dc-b070-4453-8669-2cb196b80174)
 
 
 Ao clicar no botão reagendar o usuário é redirecionado para a tela de orçamento para revisão dos itens.
