@@ -47,7 +47,7 @@ E tela Como funciona:
 Telas referentes a visão do funcionário que consegue visualizar os eventos pendentes, confirmar, rejeitar e editar:
 
 
-![image](https://github.com/user-attachments/assets/a85c7dbe-1f66-4679-91f1-8149351e41c8)
+![image](https://github.com/user-attachments/assets/466ce0df-65cd-45ff-a4d3-795ffbe7e113)
 ![image](https://github.com/user-attachments/assets/2a8eda98-3a3d-41b1-8406-b30ac1c9f914)
 ![image](https://github.com/user-attachments/assets/c8916322-0198-492f-aa30-7e0ea94bca2b)
 
