@@ -14,6 +14,18 @@
 ![image](https://github.com/user-attachments/assets/42fcb716-1e7c-4d8e-a9cb-b428473bb7b4)
 ![image](https://github.com/user-attachments/assets/b5c3862b-ddaf-4718-8603-16f70fc17928)
 ![image](https://github.com/user-attachments/assets/4d39374b-27db-4fb3-90bb-1229417824ac)
+![image](https://github.com/user-attachments/assets/6269e590-2678-45d2-914d-d6e6670cfdba)
+
+Fluxo Meus Eventos:
+
+![image](https://github.com/user-attachments/assets/61c80f87-ccf2-47c2-a2b4-a5d54bce148f)
+![image](https://github.com/user-attachments/assets/45a20dc8-c1c5-4c0b-b528-fa6879dc4791)
+Ao clicar no botão reagendar o usuário é redirecionado para a tela de orçamento para revisçao dos itens
+
+
+
+
+
 
 
 
