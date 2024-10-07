@@ -41,13 +41,11 @@ E tela Como funciona:
 
 
 
+Telas referentes a visão do funcionário que consegue visualizar os eventos pendentes, confirmar e editar:
 
 
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/2a8eda98-3a3d-41b1-8406-b30ac1c9f914)
+![image](https://github.com/user-attachments/assets/c8916322-0198-492f-aa30-7e0ea94bca2b)
 
 
 
