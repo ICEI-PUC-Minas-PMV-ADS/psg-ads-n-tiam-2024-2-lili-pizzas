@@ -8,7 +8,9 @@
 
 ## Wireframes
 
-Segue abaixo fluxo de telas para agendar um evento:
+Link para acesso às telas: https://www.figma.com/design/DuuIQFuoEW4M0CKIQ4GHHH/Pizza-Inn-Application-(Community)-(Copy)?node-id=0-1&t=9D7485fM27XZp83O-1 
+
+Fluxo de telas para agendar um evento:
 
 ![image](https://github.com/user-attachments/assets/b28c6a48-29bc-4a74-86da-fcd583b9b72f)
 ![image](https://github.com/user-attachments/assets/a3ff8d25-ce18-4030-8775-e7993cc41760)
@@ -18,7 +20,7 @@ Segue abaixo fluxo de telas para agendar um evento:
 ![image](https://github.com/user-attachments/assets/0eeaf82a-1c98-45cc-bac1-4d3926c00853)
 ![image](https://github.com/user-attachments/assets/6269e590-2678-45d2-914d-d6e6670cfdba)
 
-Fluxo Meus Eventos:
+Fluxo "Meus Eventos":
 
 ![image](https://github.com/user-attachments/assets/61c80f87-ccf2-47c2-a2b4-a5d54bce148f)
 ![image](https://github.com/user-attachments/assets/4c072646-e1ae-458a-a0c2-b695d7678157)
@@ -33,15 +35,14 @@ Pela tela de inicio é possível acessar as configurações que dão acesso a ou
 ![image](https://github.com/user-attachments/assets/4516e53f-c0a2-4577-a108-a53eb6aa5e96)
 ![image](https://github.com/user-attachments/assets/970ee777-7c83-46d7-9b40-6ea4c1860353)
 
-Tela sobre nós:
+Tela "sobre nós":
 
 ![image](https://github.com/user-attachments/assets/d4710e73-b098-49fa-9f76-d923b9d7fa3a)
 
-E tela Como funciona:
+E tela "Como funciona":
 
 
 ![image](https://github.com/user-attachments/assets/59832dc1-9584-4bf5-9a3c-7b9e3d3d4892)
-
 
 
 Telas referentes a visão do funcionário que consegue visualizar os eventos pendentes, confirmar, rejeitar e editar:
@@ -52,8 +53,6 @@ Telas referentes a visão do funcionário que consegue visualizar os eventos pen
 ![image](https://github.com/user-attachments/assets/c8916322-0198-492f-aa30-7e0ea94bca2b)
 
 
-E aqui uma visão geral de como ficou o figma do nosso projeto: 
+Visão geral do figma do projeto: 
 
 ![image](https://github.com/user-attachments/assets/d4fb7b82-042d-4175-b5e1-94b3dd578534)
-
-
