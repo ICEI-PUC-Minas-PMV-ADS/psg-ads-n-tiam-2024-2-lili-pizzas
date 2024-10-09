@@ -35,6 +35,8 @@ A hospedagem da aplicação será feita utilizando o Firebase Hosting, que é um
 
 O Expo também será utilizado para distribuir as versões da aplicação durante o desenvolvimento e testes, facilitando o compartilhamento de builds com os membros da equipe e clientes.
 
+Além disso, o github será responsável por todo controle de versão do código, além de armazenar toda parte de documentação do projeto 
+
 ## Qualidade do Software
 Para garantir a qualidade do software desenvolvido, serão seguidas algumas características e subcaracterísticas da norma ISO/IEC 25010, visando a entrega de um produto robusto e alinhado às expectativas do cliente.
 
