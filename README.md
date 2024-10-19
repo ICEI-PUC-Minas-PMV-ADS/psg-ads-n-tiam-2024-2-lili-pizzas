@@ -10,7 +10,7 @@ Será desenvolvido um aplicativo gestão de agendamentos de eventos de uma empre
 
 ## Integrantes
 
-* Amanda Avelino Barreto Santos Camilo
+* Amanda Avelino Camilo Barreto Santos
 *  Gabriel Arthur Medeiros Freitas
 * Gabriel Chaves Pinheiro
 * João Vitor Almeida Ansaloni

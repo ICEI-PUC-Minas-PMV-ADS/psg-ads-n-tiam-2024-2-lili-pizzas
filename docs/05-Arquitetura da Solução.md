@@ -4,10 +4,18 @@
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+![TIlilipizzas drawio (1)](https://github.com/user-attachments/assets/cfdcaeae-3f3f-47fd-bf71-0c02c81822b3)
 
 ## Modelo Físico
+# Banco FireBase com as collections devidamente criadas.
+Link do banco: https://console.firebase.google.com/u/0/project/lili-pizza/settings/iam
+![image](https://github.com/user-attachments/assets/bfabeee1-e677-48d7-906e-e1d77281e217)
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+# Conexão no código 
+
+![image](https://github.com/user-attachments/assets/2cf883dc-3fc1-454c-ad68-3e2f273d7581)
+
+
 
 ## Tecnologias Utilizadas
 
@@ -26,6 +34,8 @@ Ferramentas e IDEs:
 A hospedagem da aplicação será feita utilizando o Firebase Hosting, que é uma solução serverless. Isso significa que a aplicação será automaticamente escalável e robusta, suportando picos de acesso sem a necessidade de configurar servidores manualmente.
 
 O Expo também será utilizado para distribuir as versões da aplicação durante o desenvolvimento e testes, facilitando o compartilhamento de builds com os membros da equipe e clientes.
+
+Além disso, o github será responsável por todo controle de versão do código, além de armazenar toda parte de documentação do projeto 
 
 ## Qualidade do Software
 Para garantir a qualidade do software desenvolvido, serão seguidas algumas características e subcaracterísticas da norma ISO/IEC 25010, visando a entrega de um produto robusto e alinhado às expectativas do cliente.

@@ -3,10 +3,10 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBZqxJV6yi5yNAWmbX0wO3OZW-V8BzLwgQ",
-  authDomain: "SEU_AUTH_DOMAIN",
+  authDomain: "lili-pizza.firebaseapp.com",
   projectId: "lili-pizza",
   storageBucket: "lili-pizza.appspot.com",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
+  messagingSenderId: "705807171176",
   appId: "1:705807171176:android:089f58bb5207b384a345dd",
 };
 
