@@ -61,6 +61,24 @@ Nesta abordagem, analisaremos a interação de usuários com os componentes do s
   - O redirecionamento foi realizado de forma esperada?  
 - **Critérios de sucesso:** O usuário acessa o WhatsApp sem dificuldades.
 
+### UC-006: Agendamento de Evento
+Objetivo: Testar a usabilidade do processo de agendamento de eventos.
+
+Cenário: O participante deseja agendar um evento utilizando o sistema.
+
+Perguntas de avaliação:
+
+O participante conseguiu localizar facilmente a funcionalidade de agendamento de eventos?
+O formulário de agendamento era intuitivo e fácil de preencher?
+Os campos obrigatórios estavam claramente indicados?
+O participante compreendeu as mensagens de erro ou validação (se exibidas)?
+O feedback visual ou textual após a confirmação do agendamento foi claro e satisfatório?
+Critérios de sucesso:
+
+O usuário localiza e preenche o formulário de agendamento sem dificuldades.
+O agendamento é concluído com sucesso, e o participante sente-se confiante de que a tarefa foi realizada corretamente.
+Mensagens e validações não causam frustração ou confusão.
+
 ### **Estratégia de Teste**  
 - **Participantes:** Usuários reais representando os principais perfis de público do sistema.  
 - **Ambiente de Teste:** Simulação em dispositivos e navegadores utilizados pelos usuários-alvo.  
