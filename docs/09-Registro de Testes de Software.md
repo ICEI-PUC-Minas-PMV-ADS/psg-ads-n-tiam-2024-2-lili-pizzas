@@ -7,10 +7,15 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
 ## TC-001: Tela de Login
-
+Realizando teste manual efetuando um login no aplicativo.
 https://github.com/user-attachments/assets/67524a81-931e-486f-90bb-12d5a03985dd
 
+Banco de dados com o login salvo:
+![evidência login vinicius](https://github.com/user-attachments/assets/90551cea-5325-4882-b43a-a7c481cfac23)
 
 ## TC-002: Reset de Senha
+Realizado teste manual efetuando um reset de senha no aplicativo.
+https://github.com/user-attachments/assets/986256af-ce73-480e-a9bc-7c1b6ae949f0
+
 ## TC-003: Cadastro de Usuário
 ## TC-010: Agendamento de Evento
