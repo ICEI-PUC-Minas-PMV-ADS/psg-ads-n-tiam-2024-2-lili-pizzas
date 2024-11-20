@@ -49,6 +49,7 @@ export default function TabLayout() {
                     title: 'Início',
                 }}
             />
+
             <Tabs.Screen
                 name="settings"
                 options={{
@@ -85,6 +86,14 @@ export default function TabLayout() {
                     ),
                     tabBarLabel: 'Perfil',
                     title: 'Perfil',
+                }}
+            />
+
+            <Tabs.Screen
+                name="home"
+                options={{
+                    headerShown: false,
+                    href: null,
                 }}
             />
         </Tabs>
