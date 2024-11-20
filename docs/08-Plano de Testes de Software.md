@@ -16,7 +16,7 @@ Acessar a tela de login.
 Inserir um nome de usuário e senha válidos.
 Clicar no botão de login.
 Resultado Esperado: O sistema deve permitir o acesso à área restrita.
-## TC-002: Reset de senha
+## TC-002: Reset de Senha
 
 Objetivo: Verificar se o e-mail de reset de senha está sendo enviado pelo e-mail
 Acessar a tela de login.
