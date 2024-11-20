@@ -72,7 +72,9 @@ export default function Home() {
                 <View className="mt-6">
                     <View className="flex-row gap-6">
                         <TouchableOpacity
-                            onPress={() => router.push('/(auth)/home/events')}
+                            onPress={() =>
+                                router.replace('/(auth)/home/events')
+                            }
                             activeOpacity={0.8}
                             className="flex-1 flex-row items-center justify-between px-4 border border-gray-200 rounded-lg h-16"
                         >
@@ -110,7 +112,9 @@ export default function Home() {
 
                     <View className="flex-row gap-6 mt-6">
                         <TouchableOpacity
-                            onPress={() => {}}
+                            onPress={() =>
+                                router.replace('/(auth)/home/my-events')
+                            }
                             activeOpacity={0.8}
                             className="flex-1 flex-row items-center justify-between px-4 border border-gray-200 rounded-lg h-16"
                         >

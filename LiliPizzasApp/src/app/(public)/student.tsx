@@ -78,6 +78,7 @@ export default function StudentLogin() {
                             <TextInput
                                 className="px-4 py-4 bg-white rounded-md"
                                 placeholder="Email"
+                                placeholderTextColor={colors.gray400}
                                 selectionColor={colors.primary}
                                 autoCapitalize="none"
                                 keyboardType="email-address"
@@ -109,6 +110,7 @@ export default function StudentLogin() {
                                     enterKeyHint="send"
                                     secureTextEntry={!isPasswordVisible}
                                     autoCapitalize="none"
+                                    placeholderTextColor={colors.gray400}
                                     onBlur={onBlur}
                                     onChangeText={onChange}
                                     selectionColor={colors.primary}
@@ -147,6 +149,16 @@ export default function StudentLogin() {
                     )}
                     name="password"
                 />
+
+                <View className="items-end">
+                    <TouchableOpacity
+                        className="mt-2"
+                        activeOpacity={0.7}
+                        onPress={() => router.push('/(public)/forgot-password')}
+                    >
+                        <Text className="text-white">Esqueci a senha</Text>
+                    </TouchableOpacity>
+                </View>
 
                 <View className="gap-4 mt-8">
                     <TouchableOpacity

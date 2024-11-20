@@ -1,4 +1,4 @@
-interface Event {
+export interface EventType {
     id: string
     data: string
     local: string
