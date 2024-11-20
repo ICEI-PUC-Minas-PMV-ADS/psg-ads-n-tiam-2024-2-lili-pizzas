@@ -22,6 +22,17 @@ Realizado teste manual efetuando um reset de senha no aplicativo.
 https://github.com/user-attachments/assets/986256af-ce73-480e-a9bc-7c1b6ae949f0
 
 ## TC-003: Cadastro de Usuário
+
+Realizando teste manual com cadastro de usuário:
+
+https://github.com/user-attachments/assets/8f076be1-a3fd-493e-8805-87aae583570a
+
+Evidencia de cadastro no banco de dados:
+
+<img src="https://github.com/user-attachments/assets/7ca988bc-9629-4829-8231-d9a5b6366166" alt="evidência agendar evento João" width="500"/>
+
+
+
 ## TC-010: Agendamento de Evento
 
 
