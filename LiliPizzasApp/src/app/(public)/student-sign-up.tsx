@@ -98,16 +98,16 @@ export default function StudentSignUp() {
     return (
         <View className="flex-1 bg-primary">
             <View className="w-full px-8 mt-12">
-                <View className="items-center justify-center mb-12">
-                    <Text className="text-white text-4xl font-semibold">
-                        Cadastre-se
-                    </Text>
-                </View>
-
                 <KeyboardAvoidingView
                     behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
                     style={{ justifyContent: 'flex-end' }}
                 >
+                    <View className="items-center justify-center mb-12">
+                        <Text className="text-white text-4xl font-semibold">
+                            Cadastre-se
+                        </Text>
+                    </View>
+
                     <Controller
                         control={control}
                         rules={{
@@ -119,6 +119,7 @@ export default function StudentSignUp() {
                                     className="px-4 py-4 bg-white rounded-md"
                                     placeholder="Nome"
                                     selectionColor={colors.primary}
+                                    placeholderTextColor={colors.gray400}
                                     autoCapitalize="none"
                                     onBlur={onBlur}
                                     onChangeText={onChange}
@@ -148,6 +149,7 @@ export default function StudentSignUp() {
                                     className="px-4 py-4 bg-white rounded-md"
                                     placeholder="Telefone"
                                     selectionColor={colors.primary}
+                                    placeholderTextColor={colors.gray400}
                                     autoCapitalize="none"
                                     onBlur={onBlur}
                                     onChangeText={onChange}
@@ -181,6 +183,7 @@ export default function StudentSignUp() {
                                     className="px-4 py-4 bg-white rounded-md"
                                     placeholder="E-mail"
                                     selectionColor={colors.primary}
+                                    placeholderTextColor={colors.gray400}
                                     // onFocus={() => setInputFocused('login')}
                                     autoCapitalize="none"
                                     keyboardType="email-address"
@@ -212,6 +215,7 @@ export default function StudentSignUp() {
                                     className="px-4 py-4 bg-white rounded-md"
                                     placeholder="Gênero"
                                     selectionColor={colors.primary}
+                                    placeholderTextColor={colors.gray400}
                                     autoCapitalize="none"
                                     onBlur={onBlur}
                                     onChangeText={onChange}
@@ -241,6 +245,7 @@ export default function StudentSignUp() {
                                     className="px-4 py-4 bg-white rounded-md"
                                     placeholder="Endereço"
                                     selectionColor={colors.primary}
+                                    placeholderTextColor={colors.gray400}
                                     autoCapitalize="none"
                                     onBlur={onBlur}
                                     onChangeText={onChange}
@@ -270,6 +275,7 @@ export default function StudentSignUp() {
                                     className="px-4 py-4 bg-white rounded-md"
                                     placeholder="Data de nascimento"
                                     selectionColor={colors.primary}
+                                    placeholderTextColor={colors.gray400}
                                     autoCapitalize="none"
                                     onBlur={onBlur}
                                     onChangeText={onChange}
@@ -305,6 +311,7 @@ export default function StudentSignUp() {
                                         onBlur={onBlur}
                                         onChangeText={onChange}
                                         selectionColor={colors.primary}
+                                        placeholderTextColor={colors.gray400}
                                         value={value}
                                         className="flex-1 px-4 py-4"
                                         placeholder="Senha"
@@ -363,6 +370,7 @@ export default function StudentSignUp() {
                                         onBlur={onBlur}
                                         onChangeText={onChange}
                                         selectionColor={colors.primary}
+                                        placeholderTextColor={colors.gray400}
                                         value={value}
                                         className="flex-1 px-4 py-4"
                                         placeholder="Confirme a senha"

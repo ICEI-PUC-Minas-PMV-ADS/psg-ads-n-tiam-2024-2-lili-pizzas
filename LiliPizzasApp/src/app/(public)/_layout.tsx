@@ -21,6 +21,14 @@ export default function PublicStack() {
                 options={{ headerTitle: '', headerBackTitle: 'Voltar' }}
             />
             <Stack.Screen
+                name="forgot-password"
+                options={{
+                    headerTitle: '',
+                    headerBackTitle: 'Voltar',
+                    presentation: 'modal',
+                }}
+            />
+            <Stack.Screen
                 name="student-sign-up"
                 options={{ headerTitle: '', headerBackTitle: 'Voltar' }}
             />
