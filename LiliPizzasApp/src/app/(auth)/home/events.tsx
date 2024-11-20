@@ -1,15 +1,18 @@
+import { db } from '@/server/firebaseConfig'
 import { colors } from '@/styles/colors'
 import { Entypo } from '@expo/vector-icons'
 import { Stack, useNavigation } from 'expo-router'
+import { addDoc, collection } from 'firebase/firestore'
+import { useState } from 'react'
 import { Controller, useForm } from 'react-hook-form'
-import { Pressable, Text, View } from 'react-native'
+import { Alert, Pressable, Text, View } from 'react-native'
 import { TextInput } from 'react-native-gesture-handler'
 
 interface EventForm {
     data_evento: string
     horario: string
     localizacao: string
-    cidade: string
+    valorOrcamento: string
     tipo_evento: string
     num_adultos: string
     num_criancas: string
@@ -17,6 +20,8 @@ interface EventForm {
 }
 
 export default function Events() {
+    const [isLoading, setIsLoading] = useState(false)
+
     const navigation = useNavigation()
 
     const {
@@ -29,7 +34,7 @@ export default function Events() {
             data_evento: '',
             horario: '',
             localizacao: '',
-            cidade: '',
+            valorOrcamento: '',
             tipo_evento: '',
             num_adultos: '',
             num_criancas: '',
@@ -37,11 +42,37 @@ export default function Events() {
         },
     })
 
+    const eventCollection = collection(db, 'evento')
+
     async function onSubmit(data: EventForm) {
+        setIsLoading(true)
+
         try {
-            console.log(data)
+            await addDoc(eventCollection, {
+                data: data.data_evento,
+                local: data.localizacao,
+                numeroAdultos: data.num_adultos,
+                numeroCriancas: data.num_criancas,
+                tipoEvento: data.tipo_evento,
+                valorOrcamento: data.valorOrcamento,
+                quantGarcons: 0,
+                quantPizzaiola: 0,
+                horario: data.horario,
+            })
+
+            Alert.alert('Sucesso', 'Evento agendado com sucesso', [
+                {
+                    text: 'Ok',
+                    onPress: () => navigation.goBack(),
+                },
+            ])
         } catch (error) {
-            console.log(error)
+            setError('servico_extra', {
+                type: 'manual',
+                message: 'Erro ao agendar evento',
+            })
+        } finally {
+            setIsLoading(false)
         }
     }
 
@@ -49,7 +80,7 @@ export default function Events() {
         <View className="p-4 bg-white flex-1">
             <Stack.Screen
                 options={{
-                    headerTitle: 'Evento',
+                    headerTitle: 'Agendar evento',
                     headerLeft: () => (
                         <Pressable
                             className="flex-row items-center -ml-4"
@@ -167,7 +198,7 @@ export default function Events() {
                     <View className="gap-4 mt-4">
                         <TextInput
                             className="px-4 py-4 border border-gray-300 rounded-md"
-                            placeholder="Cidade"
+                            placeholder="Valor do orçamento"
                             selectionColor={colors.primary}
                             autoCapitalize="none"
                             onBlur={onBlur}
@@ -176,16 +207,16 @@ export default function Events() {
                             enterKeyHint="next"
                         />
 
-                        {errors.cidade && (
+                        {errors.valorOrcamento && (
                             <Text className="text-red-600 font-bold text-xs">
-                                {errors.cidade?.message === ''
-                                    ? 'Insira uma cidade'
-                                    : errors.cidade?.message}
+                                {errors.valorOrcamento?.message === ''
+                                    ? 'Insira um valor de orçamento'
+                                    : errors.valorOrcamento?.message}
                             </Text>
                         )}
                     </View>
                 )}
-                name="cidade"
+                name="valorOrcamento"
             />
 
             <Controller
@@ -281,7 +312,7 @@ export default function Events() {
             <Controller
                 control={control}
                 rules={{
-                    required: true,
+                    required: false,
                 }}
                 render={({ field: { onChange, onBlur, value } }) => (
                     <View className="gap-4 mt-4">
@@ -310,9 +341,14 @@ export default function Events() {
 
             <Pressable
                 onPress={handleSubmit(onSubmit)}
-                className="bg-primary p-4 rounded-md mt-4"
+                disabled={isLoading}
+                className="bg-primary p-4 rounded-md mt-4 items-center"
             >
-                <Text className="text-white text-center">Agendar</Text>
+                {isLoading ? (
+                    <Text className="text-white">Carregando...</Text>
+                ) : (
+                    <Text className="text-white">Agendar</Text>
+                )}
             </Pressable>
         </View>
     )
