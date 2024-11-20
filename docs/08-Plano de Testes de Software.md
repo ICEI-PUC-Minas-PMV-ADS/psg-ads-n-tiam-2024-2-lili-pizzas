@@ -8,15 +8,10 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
  
 ## Metodologia de Testes para Garantia da Qualidade do Sistema
 
-Para garantir a qualidade do nosso sistema, utilizaremos dois tipos de testes: testes manuais e testes automatizados com o Selenium IDE.
+Para garantir a qualidade do nosso sistema, utilizaremos os testes: testes manuais;
 
 # Testes Manuais:
 Nesta abordagem, iremos analisar cada componente do sistema de forma detalhada, separando as funcionalidades em tópicos. Cada componente será testado manualmente, sem o auxílio de ferramentas de automação. Essa metodologia nos permitirá identificar problemas de usabilidade e garantir que cada funcionalidade atenda aos requisitos especificados.
-
-# Testes Automatizados com Selenium IDE:
-Após a realização dos testes manuais, utilizaremos o Selenium IDE, uma ferramenta de automação, para validar se os testes manuais foram executados com sucesso. No Selenium IDE, cada tela do sistema será testada de forma automatizada, permitindo que verifiquemos rapidamente todas as funcionalidades e asseguremos que estão operando conforme o esperado.
-
-Essa combinação de testes manuais e automatizados nos proporcionará uma abordagem abrangente para garantir a qualidade do nosso sistema
  
 # Descrição dos Casos de Teste
 ## TC-001: Tela de Login
@@ -107,8 +102,3 @@ Clicar no botão de redirecionamento.
 Resultado Esperado: O cliente deve ser redirecionado para o WhatsApp.
 # 3. Estratégia de Teste
 Ambiente de Teste: A aplicação deve ser testada em um ambiente de desenvolvimento que simule o ambiente de produção.
-
-# 4. Cronograma
-Planejamento dos Testes: 1 semana
-Execução dos Testes: 2 semanas
-Revisão e Documentação: 1 semana
