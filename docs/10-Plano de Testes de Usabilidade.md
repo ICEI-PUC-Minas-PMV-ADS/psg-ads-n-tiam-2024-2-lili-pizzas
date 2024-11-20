@@ -14,8 +14,11 @@ Nesta abordagem, analisaremos a interação de usuários com os componentes do s
 - **Cenário:** O participante acessa a tela de login e tenta entrar com suas credenciais.  
 - **Perguntas de avaliação:**
   - O participante encontrou facilmente onde inserir o usuário e a senha?  
-  - O botão de login foi identificado sem dificuldade?  
-  - O feedback ao errar as credenciais é claro?  
+Sim, o participante encontrou facilmente o local para inserir o usuário e a senha, demonstrando clareza na interface e intuitividade no design.
+  - O botão de login foi identificado sem dificuldade?
+  - O botão de login foi identificado sem dificuldade, evidenciando boa visibilidade e localização estratégica no layout. 
+  - O feedback ao errar as credenciais é claro?
+  - O feedback ao errar as credenciais é claro, falando para o usuário a informaçãoque seu Email ou senha está invalido para corrigir o erro.
 - **Critérios de sucesso:** O usuário consegue realizar o login sem dúvidas ou dificuldades.
 
 #### **UC-002: Reset de Senha**
@@ -31,9 +34,12 @@ Nesta abordagem, analisaremos a interação de usuários com os componentes do s
 - **Objetivo:** Avaliar se o processo de cadastro de novos usuários é intuitivo.  
 - **Cenário:** O participante tenta criar uma conta no sistema.  
 - **Perguntas de avaliação:**
-  - O participante identificou os campos obrigatórios?  
-  - As mensagens de erro foram claras?  
-  - O botão "Cadastrar" estava visível e intuitivo?  
+  - O participante identificou os campos obrigatórios?
+  - o usuário identificou os campos obrigatórios com facilidade, indicando que estão devidamente destacados e seguindo boas práticas de usabilidade. 
+  - As mensagens de erro foram claras?
+  - As mensagens de erro foram claras, orientando o usuário de forma objetiva para corrigir os problemas encontrados.
+  - O botão "Cadastrar" estava visível e intuitivo?
+  - o botão "Cadastrar" estava visível e apresentava um design intuitivo, facilitando sua identificação e uso.
 - **Critérios de sucesso:** O usuário finaliza o cadastro sem ajuda externa.
 
 #### **UC-004: Reagendamento de Evento**
