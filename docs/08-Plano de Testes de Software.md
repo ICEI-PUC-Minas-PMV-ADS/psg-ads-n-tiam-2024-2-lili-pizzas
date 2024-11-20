@@ -2,7 +2,7 @@
 
 ## Metodologia de Testes para Garantia da Qualidade do Sistema
 
-Para garantir a qualidade do nosso sistema, utilizaremos os testes: testes manuais;
+Para garantir a qualidade do nosso sistema, utilizaremos os testes testes manuais.
 
 # Testes Manuais:
 Nesta abordagem, iremos analisar cada componente do sistema de forma detalhada, separando as funcionalidades em tópicos. Cada componente será testado manualmente, sem o auxílio de ferramentas de automação. Essa metodologia nos permitirá identificar problemas de usabilidade e garantir que cada funcionalidade atenda aos requisitos especificados.
