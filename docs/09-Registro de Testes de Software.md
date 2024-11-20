@@ -8,6 +8,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 ## TC-001: Tela de Login
 Realizando teste manual efetuando um login no aplicativo.
+
 https://github.com/user-attachments/assets/67524a81-931e-486f-90bb-12d5a03985dd
 
 Banco de dados com o login salvo:
