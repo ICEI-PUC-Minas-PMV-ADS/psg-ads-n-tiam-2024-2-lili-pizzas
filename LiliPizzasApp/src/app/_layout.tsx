@@ -9,9 +9,10 @@ import {
 } from '@expo-google-fonts/montserrat'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { StatusBar } from 'expo-status-bar'
-import { Slot } from 'expo-router'
+import { router, Slot } from 'expo-router'
 
 import '../styles/global.css'
+import { auth } from '@/server/firebaseConfig'
 
 SplashScreen.preventAutoHideAsync()
 
@@ -30,6 +31,14 @@ export default function Layout() {
     if (!fontsLoaded) {
         return null
     }
+
+    auth.onAuthStateChanged((user) => {
+        if (user) {
+            return router.push('/(auth)')
+        } else {
+            return router.push('/(public)')
+        }
+    })
 
     return (
         <GestureHandlerRootView style={{ flex: 1 }}>

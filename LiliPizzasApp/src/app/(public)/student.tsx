@@ -8,10 +8,10 @@ import {
 import { auth } from '@/server/firebaseConfig'
 import { signInWithEmailAndPassword } from '@firebase/auth'
 import { Controller, useForm } from 'react-hook-form'
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import { Feather } from '@expo/vector-icons'
 import { colors } from '@/styles/colors'
-import { router } from 'expo-router'
+import { router, useFocusEffect } from 'expo-router'
 
 export default function StudentLogin() {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false)
@@ -21,6 +21,7 @@ export default function StudentLogin() {
         control,
         handleSubmit,
         setError,
+        reset,
         formState: { errors },
     } = useForm({
         defaultValues: {
@@ -31,17 +32,25 @@ export default function StudentLogin() {
 
     async function onSubmit(data: { login: string; password: string }) {
         try {
-            const user = await signInWithEmailAndPassword(
-                auth,
-                'migueloliveirabizzi@gmail.com',
-                '123456'
-            )
+            setIsLoading(true)
 
-            console.log(user)
+            await signInWithEmailAndPassword(auth, data.login, data.password)
         } catch (error) {
-            console.log(error)
+            setError('password', {
+                type: 'manual',
+                message: 'Email ou senha inválidos',
+            })
+        } finally {
+            setIsLoading(false)
         }
     }
+
+    useFocusEffect(
+        useCallback(() => {
+            reset(undefined)
+            return () => {}
+        }, [])
+    )
 
     return (
         <View className="flex-1 bg-primary">
@@ -68,7 +77,7 @@ export default function StudentLogin() {
                         <View className="gap-4">
                             <TextInput
                                 className="px-4 py-4 bg-white rounded-md"
-                                placeholder="Login"
+                                placeholder="Email"
                                 selectionColor={colors.primary}
                                 autoCapitalize="none"
                                 keyboardType="email-address"
@@ -78,7 +87,7 @@ export default function StudentLogin() {
                                 enterKeyHint="next"
                             />
                             {errors.login && (
-                                <Text className="text-red-600 font-bold text-xs">
+                                <Text className="text-white font-bold text-sm">
                                     {errors.login?.message === ''
                                         ? 'Insira um login'
                                         : errors.login?.message}
@@ -95,7 +104,7 @@ export default function StudentLogin() {
                     }}
                     render={({ field: { onChange, onBlur, value } }) => (
                         <View className="gap-4 mt-4">
-                            <View className="items-center flex-row pb-2">
+                            <View className="items-center flex-row relative bg-white rounded-md">
                                 <TextInput
                                     enterKeyHint="send"
                                     secureTextEntry={!isPasswordVisible}
@@ -104,7 +113,7 @@ export default function StudentLogin() {
                                     onChangeText={onChange}
                                     selectionColor={colors.primary}
                                     value={value}
-                                    className="px-4 py-4 bg-white rounded-md flex-1"
+                                    className="flex-1 px-4 py-4"
                                     placeholder="Senha"
                                 />
 
@@ -113,12 +122,7 @@ export default function StudentLogin() {
                                     onPress={() =>
                                         setIsPasswordVisible(!isPasswordVisible)
                                     }
-                                    style={{
-                                        position: 'absolute',
-                                        right: 8,
-                                        justifyContent: 'center',
-                                        alignItems: 'center',
-                                    }}
+                                    className="mr-4"
                                 >
                                     <Feather
                                         name={
@@ -133,7 +137,7 @@ export default function StudentLogin() {
                             </View>
 
                             {errors.password && (
-                                <Text className="text-red-600 font-bold text-xs">
+                                <Text className="text-white font-bold text-sm">
                                     {errors.password?.message === ''
                                         ? 'Insira uma senha'
                                         : errors.password?.message}
@@ -147,10 +151,15 @@ export default function StudentLogin() {
                 <View className="gap-4 mt-8">
                     <TouchableOpacity
                         className="w-full py-4 border border-white justify-center items-center rounded-md bg-white/20"
-                        onPress={() => {}}
+                        onPress={handleSubmit(onSubmit)}
+                        disabled={isLoading}
                         activeOpacity={0.7}
                     >
-                        <Text className="text-white">Login</Text>
+                        {isLoading ? (
+                            <Text className="text-white">Carregando...</Text>
+                        ) : (
+                            <Text className="text-white">Login</Text>
+                        )}
                     </TouchableOpacity>
 
                     <TouchableOpacity
