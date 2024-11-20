@@ -23,3 +23,11 @@ https://github.com/user-attachments/assets/986256af-ce73-480e-a9bc-7c1b6ae949f0
 
 ## TC-003: Cadastro de Usuário
 ## TC-010: Agendamento de Evento
+
+
+Realizando teste manual da tela de agendamento de evento:
+
+![WhatsApp Image 2024-11-20 at 17 23 31 (2)](https://github.com/user-attachments/assets/3423cf5c-42b6-461b-882a-57fc59e5b01b)
+
+https://github.com/user-attachments/assets/296c6894-fe48-4131-b419-b596ae171257
+
