@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/296c6894-fe48-4131-b419-b596ae171257
 
 Banco de dados com o agendamento salvo salvo:
 
-<img src="![WhatsApp Image 2024-11-20 at 17 23 31 (2)](https://github.com/user-attachments/assets/93c98894-48f6-4464-8111-29ef4d607ad3)" alt="evidência agendar evento João" width="500"/>
+<img src="(https://github.com/user-attachments/assets/93c98894-48f6-4464-8111-29ef4d607ad3)" alt="evidência agendar evento João" width="500"/>
 
 
 
