@@ -23,7 +23,7 @@ Acessar a tela de login.
 Clicar em "esqueci minha senha"
 Resultado Esperado: Um email de redefinição de senha ser enviado.
 
-TC-003: Cadastro de Usuário
+## TC-003: Cadastro de Usuário
 Objetivo: Testar se o sistema permite o cadastro de novos usuários.
 Passos:
 Acessar a tela de cadastro.
