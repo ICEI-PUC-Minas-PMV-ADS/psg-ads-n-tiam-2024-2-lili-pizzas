@@ -1,9 +1,53 @@
+import { auth, db } from '@/server/firebaseConfig'
 import { router } from 'expo-router'
+import { collection, getDocs, query, where } from 'firebase/firestore'
+import { useEffect, useState } from 'react'
 import { TouchableOpacity } from 'react-native'
 import { Dimensions, Image, Text, View } from 'react-native'
 
 export default function Home() {
+    const [clientName, setClientName] = useState('')
+    const [isLoading, setIsLoading] = useState(false)
+
     const windowWidth = Dimensions.get('window').width
+
+    const clientCollection = collection(db, 'cliente')
+
+    async function fetchClientInfo() {
+        setIsLoading(true)
+
+        try {
+            const q = query(
+                clientCollection,
+                where('email', '==', auth.currentUser?.email)
+            )
+            const querySnapshot = await getDocs(q)
+
+            if (!querySnapshot.empty) {
+                querySnapshot.forEach((doc) => {
+                    setClientName(doc.data().nome)
+                })
+            } else {
+                console.log('Nenhum cliente encontrado com este email.')
+            }
+        } catch (error) {
+            console.error(error)
+        } finally {
+            setIsLoading(false)
+        }
+    }
+
+    useEffect(() => {
+        fetchClientInfo()
+    }, [])
+
+    if (isLoading) {
+        return (
+            <View className="flex-1 items-center justify-center">
+                <Text>Carregando...</Text>
+            </View>
+        )
+    }
 
     return (
         <View className="flex-1">
@@ -20,7 +64,9 @@ export default function Home() {
             <View className="px-6 gap-6 rounded-t-[20px] bg-white -mt-12 flex-1">
                 <View className="mt-6">
                     <Text className="text-2xl">Bem vindo ao Lili Pizza</Text>
-                    <Text className="text-lg text-gray-500">Olá Maria</Text>
+                    <Text className="text-lg text-gray-500">
+                        Olá {clientName}
+                    </Text>
                 </View>
 
                 <View className="mt-6">
