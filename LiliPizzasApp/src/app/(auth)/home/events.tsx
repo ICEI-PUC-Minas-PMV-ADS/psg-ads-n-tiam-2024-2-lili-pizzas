@@ -1,4 +1,4 @@
-import { db } from '@/server/firebaseConfig'
+import { auth, db } from '@/server/firebaseConfig'
 import { colors } from '@/styles/colors'
 import { Entypo } from '@expo/vector-icons'
 import { router, Stack } from 'expo-router'
@@ -63,6 +63,7 @@ export default function Events() {
                 quantGarcons: 0,
                 quantPizzaiola: 0,
                 horario: data.horario,
+                createdBy: auth.currentUser?.email,
             })
 
             Alert.alert('Sucesso', 'Evento agendado com sucesso', [

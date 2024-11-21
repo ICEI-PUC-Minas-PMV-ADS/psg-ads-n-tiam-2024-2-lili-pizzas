@@ -16,11 +16,19 @@ export default function Profile() {
         }
     }
     return (
-        <View>
-            <Text>Profile</Text>
+        <View className="px-6 py-4 flex-1">
+            <Text className="text-2xl">Meu perfil</Text>
 
-            <Pressable onPress={handleLogout}>
-                {isSigningOut ? <Text>Carregando...</Text> : <Text>Sair</Text>}
+            <Pressable
+                onPress={handleLogout}
+                disabled={isSigningOut}
+                className="bg-primary p-4 rounded-md mt-auto items-center"
+            >
+                {isSigningOut ? (
+                    <Text className="text-white">Carregando...</Text>
+                ) : (
+                    <Text className="text-white">Sair</Text>
+                )}
             </Pressable>
         </View>
     )

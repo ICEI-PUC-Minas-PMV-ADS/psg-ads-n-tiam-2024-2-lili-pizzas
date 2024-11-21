@@ -9,4 +9,5 @@ export interface EventType {
     quantGarcons: number
     quantPizzaiola: number
     horario: string
+    createdBy: string
 }

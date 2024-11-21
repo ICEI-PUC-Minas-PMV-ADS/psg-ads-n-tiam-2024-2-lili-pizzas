@@ -1,9 +1,9 @@
-import { db } from '@/server/firebaseConfig'
+import { auth, db } from '@/server/firebaseConfig'
 import { colors } from '@/styles/colors'
 import { EventType } from '@/types/event'
 import { Entypo, Feather } from '@expo/vector-icons'
 import { router, Stack, useFocusEffect } from 'expo-router'
-import { collection, getDocs } from 'firebase/firestore'
+import { collection, getDocs, query, where } from 'firebase/firestore'
 import { useCallback, useState } from 'react'
 import { Pressable, Text, TouchableOpacity, View } from 'react-native'
 
@@ -16,8 +16,11 @@ export default function Events() {
     async function fetchEvents() {
         try {
             setIsLoading(true)
-
-            const querySnapshot = await getDocs(eventCollection)
+            const q = query(
+                eventCollection,
+                where('createdBy', '==', auth.currentUser?.email)
+            )
+            const querySnapshot = await getDocs(q)
             const eventsData = querySnapshot.docs.map((doc) => ({
                 id: doc.id,
                 ...doc.data(),
@@ -64,6 +67,12 @@ export default function Events() {
                 </View>
             ) : (
                 <View className="gap-8">
+                    {events.length === 0 && (
+                        <View className="items-center justify-center">
+                            <Text>Você não possui eventos cadastrados</Text>
+                        </View>
+                    )}
+
                     {events.map((event) => (
                         <View key={event.id}>
                             <Text>{event.horario}</Text>
