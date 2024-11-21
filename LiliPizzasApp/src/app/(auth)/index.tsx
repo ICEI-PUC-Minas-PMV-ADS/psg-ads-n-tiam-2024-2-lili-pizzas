@@ -92,7 +92,7 @@ export default function Home() {
                         </TouchableOpacity>
 
                         <TouchableOpacity
-                            onPress={() => {}}
+                            onPress={() => router.replace('/(auth)/home/menu')}
                             activeOpacity={0.8}
                             className="flex-1 flex-row items-center justify-between px-4 border border-gray-200 rounded-lg h-16"
                         >
