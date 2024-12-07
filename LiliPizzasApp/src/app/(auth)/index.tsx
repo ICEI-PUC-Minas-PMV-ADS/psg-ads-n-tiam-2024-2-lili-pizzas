@@ -1,3 +1,4 @@
+import { useUserRole } from '@/hooks/user-role'
 import { auth, db } from '@/server/firebaseConfig'
 import { router } from 'expo-router'
 import { collection, getDocs, query, where } from 'firebase/firestore'
@@ -8,30 +9,49 @@ import { Dimensions, Image, Text, View } from 'react-native'
 export default function Home() {
     const [clientName, setClientName] = useState('')
     const [isLoading, setIsLoading] = useState(false)
+    const [isError, setIsError] = useState(false)
+
+    const { role, setRole } = useUserRole()
 
     const windowWidth = Dimensions.get('window').width
 
     const clientCollection = collection(db, 'cliente')
+    const colaboratorCollection = collection(db, 'colaborador')
 
     async function fetchClientInfo() {
         setIsLoading(true)
 
         try {
-            const q = query(
+            const clientq = query(
                 clientCollection,
                 where('email', '==', auth.currentUser?.email)
             )
-            const querySnapshot = await getDocs(q)
+            const clientQuerySnapshot = await getDocs(clientq)
 
-            if (!querySnapshot.empty) {
-                querySnapshot.forEach((doc) => {
+            const colaboratorq = query(
+                colaboratorCollection,
+                where('email', '==', auth.currentUser?.email)
+            )
+
+            const colaboratorQuerySnapshot = await getDocs(colaboratorq)
+
+            if (!clientQuerySnapshot.empty) {
+                clientQuerySnapshot.forEach((doc) => {
                     setClientName(doc.data().nome)
                 })
-            } else {
-                console.log('Nenhum cliente encontrado com este email.')
+
+                setRole('CLIENT')
+            }
+
+            if (!colaboratorQuerySnapshot.empty) {
+                colaboratorQuerySnapshot.forEach((doc) => {
+                    setClientName(doc.data().nome)
+                })
+
+                setRole('ADMIN')
             }
         } catch (error) {
-            console.error(error)
+            setIsError(true)
         } finally {
             setIsLoading(false)
         }
@@ -45,6 +65,14 @@ export default function Home() {
         return (
             <View className="flex-1 items-center justify-center">
                 <Text>Carregando...</Text>
+            </View>
+        )
+    }
+
+    if (isError) {
+        return (
+            <View className="flex-1 items-center justify-center">
+                <Text>Erro ao buscar informações</Text>
             </View>
         )
     }
@@ -63,6 +91,7 @@ export default function Home() {
 
             <View className="px-6 gap-6 rounded-t-[20px] bg-white -mt-12 flex-1">
                 <View className="mt-6">
+                    <Text>{role}</Text>
                     <Text className="text-2xl">Bem vindo ao Lili Pizza</Text>
                     <Text className="text-lg text-gray-500">
                         Olá {clientName}

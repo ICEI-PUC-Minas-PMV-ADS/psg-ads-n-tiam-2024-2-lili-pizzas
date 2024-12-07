@@ -13,6 +13,7 @@ import { router, Slot } from 'expo-router'
 
 import '../styles/global.css'
 import { auth } from '@/server/firebaseConfig'
+import { UserRoleProvider } from '@/hooks/user-role'
 
 SplashScreen.preventAutoHideAsync()
 
@@ -42,13 +43,15 @@ export default function Layout() {
 
     return (
         <GestureHandlerRootView style={{ flex: 1 }}>
-            <StatusBar
-                style="light"
-                backgroundColor="transparent"
-                translucent
-            />
+            <UserRoleProvider>
+                <StatusBar
+                    style="light"
+                    backgroundColor="transparent"
+                    translucent
+                />
 
-            {fontsLoaded && <Slot />}
+                {fontsLoaded && <Slot />}
+            </UserRoleProvider>
         </GestureHandlerRootView>
     )
 }

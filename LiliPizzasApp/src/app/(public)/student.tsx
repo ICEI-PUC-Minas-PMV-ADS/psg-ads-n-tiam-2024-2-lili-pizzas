@@ -5,13 +5,14 @@ import {
     TouchableOpacity,
     View,
 } from 'react-native'
-import { auth } from '@/server/firebaseConfig'
+import { auth, db } from '@/server/firebaseConfig'
 import { signInWithEmailAndPassword } from '@firebase/auth'
 import { Controller, useForm } from 'react-hook-form'
 import { useCallback, useState } from 'react'
 import { Feather } from '@expo/vector-icons'
 import { colors } from '@/styles/colors'
 import { router, useFocusEffect } from 'expo-router'
+import { collection, getDocs, query, where } from 'firebase/firestore'
 
 export default function StudentLogin() {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false)
@@ -30,9 +31,28 @@ export default function StudentLogin() {
         },
     })
 
+    const colaboratorCollection = collection(db, 'colaborador')
+
     async function onSubmit(data: { login: string; password: string }) {
         try {
             setIsLoading(true)
+
+            const colaboratorq = query(
+                colaboratorCollection,
+                where('email', '==', data.login)
+            )
+
+            const colaboratorQuerySnapshot = await getDocs(colaboratorq)
+
+            if (!colaboratorQuerySnapshot.empty) {
+                setError('password', {
+                    type: 'manual',
+                    message:
+                        'O login informado é de um colaborador, por favor, utilize o login de um cliente.',
+                })
+
+                return
+            }
 
             await signInWithEmailAndPassword(auth, data.login, data.password)
         } catch (error) {
