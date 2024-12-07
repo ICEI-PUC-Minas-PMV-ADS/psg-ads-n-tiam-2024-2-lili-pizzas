@@ -5,7 +5,7 @@ export default function AdminHomeCards() {
     return (
         <View className="mt-6">
             <TouchableOpacity
-                onPress={() => router.replace('/(auth)/home/events')}
+                onPress={() => router.replace('/(auth)/home/my-events')}
                 activeOpacity={0.8}
                 className="flex-row items-center justify-between px-4 border border-gray-200 rounded-lg h-16"
             >

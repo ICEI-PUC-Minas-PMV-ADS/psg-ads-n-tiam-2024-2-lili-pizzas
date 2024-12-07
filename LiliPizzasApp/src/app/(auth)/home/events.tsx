@@ -1,5 +1,6 @@
 import { auth, db } from '@/server/firebaseConfig'
 import { colors } from '@/styles/colors'
+import { EventStatus } from '@/types/event'
 import { Entypo } from '@expo/vector-icons'
 import { router, Stack } from 'expo-router'
 import { addDoc, collection } from 'firebase/firestore'
@@ -19,7 +20,6 @@ interface EventForm {
     data_evento: string
     horario: string
     localizacao: string
-    valorOrcamento: string
     tipo_evento: string
     num_adultos: string
     num_criancas: string
@@ -39,7 +39,6 @@ export default function Events() {
             data_evento: '',
             horario: '',
             localizacao: '',
-            valorOrcamento: '',
             tipo_evento: '',
             num_adultos: '',
             num_criancas: '',
@@ -50,6 +49,22 @@ export default function Events() {
     const eventCollection = collection(db, 'evento')
 
     async function onSubmit(data: EventForm) {
+        if (isNaN(Number(data.num_adultos))) {
+            setError('num_adultos', {
+                type: 'manual',
+                message: 'Número de adultos inválido',
+            })
+            return
+        }
+
+        if (isNaN(Number(data.num_criancas))) {
+            setError('num_criancas', {
+                type: 'manual',
+                message: 'Número de crianças inválido',
+            })
+            return
+        }
+
         setIsLoading(true)
 
         try {
@@ -59,11 +74,14 @@ export default function Events() {
                 numeroAdultos: data.num_adultos,
                 numeroCriancas: data.num_criancas,
                 tipoEvento: data.tipo_evento,
-                valorOrcamento: data.valorOrcamento,
+                valorOrcamento:
+                    Number(data.num_adultos) * 45 +
+                    Number(data.num_criancas) * 20,
                 quantGarcons: 0,
                 quantPizzaiola: 0,
                 horario: data.horario,
                 createdBy: auth.currentUser?.email,
+                status: EventStatus.PENDING,
             })
 
             Alert.alert('Sucesso', 'Evento agendado com sucesso', [
@@ -200,37 +218,6 @@ export default function Events() {
                         </View>
                     )}
                     name="localizacao"
-                />
-
-                <Controller
-                    control={control}
-                    rules={{
-                        required: true,
-                    }}
-                    render={({ field: { onChange, onBlur, value } }) => (
-                        <View className="gap-4 mt-4">
-                            <TextInput
-                                className="px-4 py-4 border border-gray-300 rounded-md"
-                                placeholder="Valor do orçamento"
-                                selectionColor={colors.primary}
-                                placeholderTextColor={colors.gray400}
-                                autoCapitalize="none"
-                                onBlur={onBlur}
-                                onChangeText={onChange}
-                                value={value}
-                                enterKeyHint="next"
-                            />
-
-                            {errors.valorOrcamento && (
-                                <Text className="text-red-600 font-bold text-xs">
-                                    {errors.valorOrcamento?.message === ''
-                                        ? 'Insira um valor de orçamento'
-                                        : errors.valorOrcamento?.message}
-                                </Text>
-                            )}
-                        </View>
-                    )}
-                    name="valorOrcamento"
                 />
 
                 <Controller

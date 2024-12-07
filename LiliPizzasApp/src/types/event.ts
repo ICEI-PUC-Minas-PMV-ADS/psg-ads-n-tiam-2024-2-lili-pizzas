@@ -9,5 +9,12 @@ export interface EventType {
     quantGarcons: number
     quantPizzaiola: number
     horario: string
+    status: EventStatus
     createdBy: string
+}
+
+export enum EventStatus {
+    PENDING = 'PENDING',
+    CONFIRMED = 'CONFIRMED',
+    REJECTED = 'REJECTED',
 }
