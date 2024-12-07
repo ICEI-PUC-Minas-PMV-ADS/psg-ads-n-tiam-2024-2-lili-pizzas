@@ -33,7 +33,7 @@ export default function WorkerLogin() {
 
             const clientq = query(
                 clientCollection,
-                where('email', '==', auth.currentUser?.email)
+                where('email', '==', data.login)
             )
             const clientQuerySnapshot = await getDocs(clientq)
 
@@ -49,6 +49,8 @@ export default function WorkerLogin() {
 
             await signInWithEmailAndPassword(auth, data.login, data.password)
         } catch (error) {
+            console.log(error)
+
             setError('password', {
                 type: 'manual',
                 message: 'Email ou senha inválidos',
