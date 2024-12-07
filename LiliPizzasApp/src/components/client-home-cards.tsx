@@ -1,3 +1,5 @@
+import { colors } from '@/styles/colors'
+import { Feather } from '@expo/vector-icons'
 import { router } from 'expo-router'
 import { Image, Text, TouchableOpacity, View } from 'react-native'
 
@@ -77,6 +79,18 @@ export default function ClientHomeCards() {
                             height: 30,
                         }}
                     />
+                </TouchableOpacity>
+            </View>
+
+            <View className="flex-row gap-6 mt-6">
+                <TouchableOpacity
+                    onPress={() => router.replace('/(auth)/home/how-works')}
+                    activeOpacity={0.8}
+                    className="flex-1 flex-row items-center justify-between px-4 border border-gray-200 rounded-lg h-16"
+                >
+                    <Text>Como funciona</Text>
+
+                    <Feather name="info" size={30} color={colors.primary} />
                 </TouchableOpacity>
             </View>
         </View>
