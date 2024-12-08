@@ -11,6 +11,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 Link do banco: https://console.firebase.google.com/u/0/project/lili-pizza/settings/iam
 ![image](https://github.com/user-attachments/assets/bfabeee1-e677-48d7-906e-e1d77281e217)
 
+![image](https://github.com/user-attachments/assets/a38c99b9-bd6e-4872-988a-55dd58c275a7)
+
 # Conexão no código 
 
 ![image](https://github.com/user-attachments/assets/2cf883dc-3fc1-454c-ad68-3e2f273d7581)
