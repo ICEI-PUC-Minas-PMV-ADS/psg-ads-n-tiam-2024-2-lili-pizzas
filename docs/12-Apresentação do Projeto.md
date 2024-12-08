@@ -6,7 +6,7 @@ Lilipizzas
 
 ## Identidade Visual (Marca, Design)
 
-![WhatsApp Image 2024-12-08 at 17 26 52](https://github.com/user-attachments/assets/1927d95f-ab01-442c-8785-f5974652ed50)
+<img src="https://github.com/user-attachments/assets/1927d95f-ab01-442c-8785-f5974652ed50" alt="Identidade Visual" width="300">
 
 ## Conjunto de Slides (Estrutura)
 
