@@ -84,12 +84,16 @@ export default function Events() {
                 status: EventStatus.PENDING,
             })
 
-            Alert.alert('Sucesso', 'Evento agendado com sucesso', [
-                {
-                    text: 'Ok',
-                    onPress: () => router.replace('/(auth)'),
-                },
-            ])
+            Alert.alert(
+                'Sucesso',
+                'Solicitação de agendamento enviada sucesso',
+                [
+                    {
+                        text: 'Ok',
+                        onPress: () => router.replace('/(auth)'),
+                    },
+                ]
+            )
         } catch (error) {
             setError('servico_extra', {
                 type: 'manual',
