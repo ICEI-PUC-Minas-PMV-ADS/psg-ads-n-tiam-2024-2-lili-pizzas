@@ -49,21 +49,6 @@ export default function TabLayout() {
                     title: 'Início',
                 }}
             />
-
-            <Tabs.Screen
-                name="settings"
-                options={{
-                    tabBarIcon: ({ size, color }) => (
-                        <MaterialCommunityIcons
-                            name="cog-outline"
-                            size={size - 2}
-                            color={color}
-                        />
-                    ),
-                    tabBarLabel: 'Configurações',
-                    title: 'Configurações',
-                }}
-            />
             <Tabs.Screen
                 name="contact"
                 options={{
