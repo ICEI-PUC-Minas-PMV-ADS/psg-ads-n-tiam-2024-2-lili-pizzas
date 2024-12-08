@@ -42,23 +42,6 @@ Sim, o participante encontrou facilmente o local para inserir o usuário e a sen
   - o botão "Cadastrar" estava visível e apresentava um design intuitivo, facilitando sua identificação e uso.
 - **Critérios de sucesso:** O usuário finaliza o cadastro sem ajuda externa.
 
-#### **UC-004: Reagendamento de Evento**
-- **Objetivo:** Testar a usabilidade da funcionalidade de reagendamento.  
-- **Cenário:** O participante tenta alterar a data e hora de um evento agendado.  
-- **Perguntas de avaliação:**
-  - O participante conseguiu encontrar a opção de reagendamento?  
-  - As opções de alteração foram intuitivas?  
-  - O feedback após a confirmação foi claro?  
-- **Critérios de sucesso:** O usuário completa o reagendamento sem erros ou confusão.
-
-#### **UC-005: Tela Sobre a Empresa**
-- **Objetivo:** Verificar se as informações sobre a empresa são fáceis de localizar e compreender.  
-- **Cenário:** O participante acessa a página "Sobre a Empresa" para obter informações institucionais.  
-- **Perguntas de avaliação:**
-  - O participante encontrou rapidamente as informações relevantes?  
-  - O design da tela facilita a leitura e a navegação?  
-- **Critérios de sucesso:** As informações são localizadas e compreendidas sem esforço.
-
 #### **UC-006: Redirecionamento para WhatsApp**
 - **Objetivo:** Testar a usabilidade do botão de redirecionamento para o WhatsApp.  
 - **Cenário:** O participante tenta acessar o WhatsApp através do sistema.  
