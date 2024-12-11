@@ -42,6 +42,18 @@ O botão "Cadastrar" estava visível e intuitivo.
 
 ![btCadastro](https://github.com/user-attachments/assets/721faf5b-6823-40c1-8302-ba4a309a6c98)
 
+## UC-005: Redirecionamento para WhatsApp
+
+Na tela principal podemos ver embaixo o icone do WhatsApp:
+![home](https://github.com/user-attachments/assets/bbc5498c-4d9f-4e7a-8fad-bd8fa3f4c387)
+
+E somos direcionado para uma página com um botão que nos redireciona direto para o WhatsApp do cliente:
+![abaWPP](https://github.com/user-attachments/assets/9998ec1f-4a26-46ba-9c80-b862a8582ac3)
+
+E aqui podemos ver o WhatsApp aberto com a opção de chamar o fornecedor do ródizio para conevrsar:
+![noWhats](https://github.com/user-attachments/assets/289b7fd4-62e3-4171-93b5-2b0f4cc652fa)
+
+
 ## UC-006: Agendamento de Evento
 O botão "Agendar evento" esta visível e intuitivo.
 ![image](https://github.com/user-attachments/assets/367bcaea-d3bb-47e5-a486-35872332aa70)
